@@ -20,6 +20,8 @@ La aplicacion se encuentra hosteada en Gcloud en el siguiente enlace: [Blog-app]
 
 
 ### Dependencias usadas
+- **Python:** 3.7
+- **Django:** 2.2
 - **django-background-tasks:** Usado para crear tareas que publiquen o desactiven los posts. Se hace verificacion cada 3min.
 - **django-bootstrap-datepicker-plus:** Usado para renderizar los selectores de fecha de publicacion y desactivacion.
 - **django-filter:** Usado para el filtro de los posts en la vista de lista de posts.
