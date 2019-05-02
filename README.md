@@ -12,7 +12,7 @@ Prueba tecnica roiback
 
 
 ## Dependencias usadas
-- django-background-tasks: Usado para crear tareas que publiquen o desactiven los posts. Se hace verificacion cada 3min.
-- django-bootstrap-datepicker-plus: Usado para renderizar los selectores de fecha de publicacion y desactivacion.
-- django-filter: Usado para el filtro de los posts en la vista de lista de posts.
-- django-widget-tweaks: Usado para mejorar el css de los widgets renderizados por los paquetes externos.
+- **django-background-tasks:** Usado para crear tareas que publiquen o desactiven los posts. Se hace verificacion cada 3min.
+- **django-bootstrap-datepicker-plus:** Usado para renderizar los selectores de fecha de publicacion y desactivacion.
+- **django-filter:** Usado para el filtro de los posts en la vista de lista de posts.
+- **django-widget-tweaks:** Usado para mejorar el css de los widgets renderizados por los paquetes externos.
