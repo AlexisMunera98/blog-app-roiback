@@ -1,0 +1,8 @@
+
+\.idea/
+
+blogapp/__pycache__/
+
+roiback/__pycache__/
+
+blogapp/migrations/__pycache__/

@@ -1,0 +1,68 @@
+body, html, .container, .full-heigh, .signup-form {
+    height: 100%;
+}
+
+.login-form {
+    padding-top: 100px;
+}
+
+.login-form form, .signup-form form {
+    border: 1px solid #E6E6E5;
+    box-shadow: 1px;
+    padding: 20px;
+}
+
+.login-form h1 {
+     text-align: center;
+     padding-bottom: 50px;
+}
+
+.signup-links {
+    text-align: center;
+}
+
+.container {
+    margin-top: 1% !important;
+}
+
+.left-right-text {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0 !important;
+}
+
+.first-row .col-9 {
+    padding-right: 0 !important;
+}
+
+.first-row .col-3 {
+    width: auto !important;
+    padding-left: 0 !important;
+}
+
+.post-card {
+    margin: 5px;
+}
+
+.likes-amount {
+    padding-top: 5px;
+}
+
+.bs-placeholder {
+    color: black !important;
+}
+
+.posts-form {
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+
+/* #delete-post {
+    position: absolute;
+    right: 0;
+}
+
+#edit-post {
+    position: absolute;
+    right: 34px;
+} */
