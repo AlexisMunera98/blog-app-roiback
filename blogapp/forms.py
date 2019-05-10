@@ -66,7 +66,7 @@ class SignUpForm(UserCreationForm):
                                  attrs={'class': 'form-control', 'placeholder': 'Correo electrónico'}
                              ))
 
-    is_admin = forms.BooleanField(label="Es administrador?:")
+    is_admin = forms.BooleanField(label="Es administrador?:", required=False)
 
     class Meta:
         model = CustomUser
