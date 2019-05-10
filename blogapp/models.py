@@ -36,6 +36,17 @@ class Post(models.Model):
     is_active = models.BooleanField(default=True)
     creation_date = models.DateTimeField(verbose_name="Fecha de creacion", auto_now_add=True)
 
+    def save(self, force_insert=False, force_update=False, using=None,
+            update_fields=None):
+        if not self.id and (self.publication_date and self.publication_date < timezone.now()):
+            self.is_active = True
+            super(Post, self).save()
+        elif self.id and not self.is_disabled and (self.publication_date and self.publication_date < timezone.now()):
+            self.is_active = True
+            super(Post, self).save()
+        else:
+            super(Post, self).save()
+
     def like(self):
         self.likes += 1
         self.save()
